@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ol{
+    list-style-position: inside; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.header a:hover{
+    color: #fdd835;
+}
+
+/* Header element starts */
+.header{
+    height: 40px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.home{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.about{
+    margin-right: 200px;
+}
+
+.resume{
+    margin-right: 200px;
+}
+
+.linktree{
+    margin-right: 200px;
+}
+/* Header element ends */
+
+/* .................................................. */
+
+
+/* Main body starts */
+main{
+    /* background: url(Images/stars-galaxy.gif); */
+    background-color: #121212;
+    height: 100%;
+    width: 100%;
+}
+
+/* Home Section */
+.home_page{
+    /* height: 20px;
+    width: 50px; */
+    /* background-color: rgb(77, 9, 235); */
+    display: flex;
+}
+.home_page img{
+    height: 600px;
+    width: 600px;
+    display: block;
+    margin-bottom: 50px;
+    margin-right: 2px;
+}
+.HomeContent{
+    color: azure;
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 40px;
+    /* margin-right: 50px; */
+}
+
+span{
+    color: yellow;
+}
+/* ........................................................... */
+
+/* About Section */
+.about_page{
+    margin-right: 200px;
+    display: flex;
+}
+
+.about_page img{
+    border-radius: 50px;
+    height: 600px;
+    width: 600px;
+    margin-left: 40px;
+}
+.AboutContent{
+    color: azure;
+    text-align: center;
+}
+
+.AboutContent h1{
+    text-decoration: underline;
+}
+
+.AboutContent li{
+    text-align: center;
+}
+
+/* ............................................................ */
+
+/* Contact Us Section */
+.contact_page img{
+    /* display: flex; */
+    color: azure;
+    margin-left: 250px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.contact_page h1{
+    color: azure;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* ................................................. */
+
+.backToTop{ 
+    text-align: center;
+    margin: 25px; 
+}
+
+.footer{
+    height: 25px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
