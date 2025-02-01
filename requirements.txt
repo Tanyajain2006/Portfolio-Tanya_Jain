@@ -5,8 +5,7 @@ SECTIONS:
 
     2. About Me
     (3. Projects) 4. Resume properly explain, then at end download button for downloading resume
-    5. Linktree
-    6. Contact 
+    5. Contact 
          i. mail id
         ii. contact no
         iii. linkedin
@@ -14,8 +13,7 @@ SECTIONS:
 
 End of the page: copyright symbol | @ 2025 Tanya Jain | All Rights Reserved
 
-1,2,6 - Page1
+1,2,5 - Page1
 3,4 - Page2
-5 - Linktree website link 
 
 .......................................................................................................................
